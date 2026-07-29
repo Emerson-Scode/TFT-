@@ -1,0 +1,35 @@
+# ============================================
+# TFT Hub - Dependências do Projeto
+# ============================================
+
+# Dashboard Web
+streamlit>=1.40.0
+
+# Manipulação e análise de dados
+pandas>=2.2.0
+numpy>=2.0.0
+
+# Visualização de dados
+plotly>=5.24.0
+
+# Banco de dados (ORM e SQLite)
+sqlalchemy>=2.0.0
+
+# Cliente da Riot Games API (TFT)
+riotwatcher>=3.2.0
+
+# Variáveis de ambiente (.env / secrets)
+python-dotenv>=1.0.0
+
+# Scraping web complementar
+beautifulsoup4>=4.12.0
+requests>=2.32.0
+lxml>=5.3.0
+
+# Testes automatizados
+pytest>=8.3.0
+pytest-cov>=6.0.0
+
+# Formatação e qualidade de código
+black>=24.0.0
+ruff>=0.7.0
