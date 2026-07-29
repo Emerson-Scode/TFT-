@@ -1,0 +1,23 @@
+[project]
+2name = "tft-hub"
+3version = "0.1.0"
+4description = "Hub de estatísticas e meta-análise para Teamfight Tactics"
+5readme = "README.md"
+6requires-python = ">=3.11"
+7license = {text = "MIT"}
+8authors = [
+9    {name = "Emerson dos Santos da Silva"}
+10]
+11
+12[tool.black]
+13line-length = 100
+14target-version = ["py311"]
+15
+16[tool.ruff]
+17line-length = 100
+18target-version = "py311"
+19
+20[tool.pytest.ini_options]
+21testpaths = ["tests"]
+22python_files = ["test_*.py"]
+23addopts = "-v --tb=short --strict-markers"
